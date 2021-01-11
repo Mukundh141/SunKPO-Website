@@ -307,6 +307,10 @@ section.reasons .content .text h2{
     /* background-color: lightblue; */
 }
 
+section.reasons .content .text span{
+    color:var(--primary);
+}
+
 section.reasons .content .text p{
     color: var(--secondary);
     font-size: 0.9rem;

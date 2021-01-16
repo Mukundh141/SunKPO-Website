@@ -14,6 +14,9 @@
     /* Back to top button ene */
     /* Section - Header Start */
     /* Nav Bar Start */
+    #hamburger{
+        visibility: visible;
+    }
     section.header {
         height: 20vh;
         /* background-color: lightgoldenrodyellow; */
@@ -28,7 +31,7 @@
     }
     /* Targetting Logo */
     section.header .container .custom-nav-bar .logo {
-        transform: scale(0.6);
+        transform: scale(0.7);
         width: 100%;
         margin-left: -0.5rem;
         margin-top: 1rem
@@ -40,8 +43,8 @@
     /* Nav Bar End */
     /* Header Circle Start */
     section.header .container .header-circle {
-        right: -30px;
-        top: -50px;
+        right:-390px;
+        top:0px;
     }
     /* Header Circle End */
     /* Section - Header End */

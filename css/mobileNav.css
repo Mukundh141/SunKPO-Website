@@ -14,6 +14,8 @@
     animation: rotateIn;
     animation-duration: 1s;
     z-index: 50;
+    visibility: hidden;
+    /* background-color: lawngreen; */
 }
 
 /* Times Icon  */

@@ -89,6 +89,7 @@ section.header .container .header-circle{
     z-index:-1;
     animation: fadeInDown;
     animation-duration: 1s;
+    /* background-color: bisque; */
 }
 /* Header Circle End */
 /*---------------------Section - Header End------------------------------------*/

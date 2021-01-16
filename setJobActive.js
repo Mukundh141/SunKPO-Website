@@ -6,6 +6,27 @@ $(document).ready(function(){
     //Getting the section id 
     const jobs = document.querySelector("#jobs");
     jobs.style.height = '800px';
+
+    //Media query for screenWidth 
+    const screenWidth = window.matchMedia("(max-width: 450px)");
+
+    //Create variables for pixels 
+    let heightInPx_desktop_engineering = '800px';
+    let heightInPx_desktop_it= '1500px';
+    let heightInPx_mobile_engineering = '1210px';
+    let heightInPx_mobile_it='1950px';
+
+    //Create function to check the scree width
+    function checkScreenWidthIntial(screenWidth) {
+        if(screenWidth.matches){
+            jobs.style.height = heightInPx_mobile_engineering;
+        }
+        else{
+            jobs.style.height =  heightInPx_desktop_engineering;
+        }
+    }
+    checkScreenWidthIntial(screenWidth);
+
 });
 
 
@@ -20,7 +41,23 @@ $("h3").click(function() {
         $(".engineering").removeClass("active");
         $("#engineering-card-wrapper").addClass("deactive-card");
         $("#engineering-card-wrapper").removeClass("active-card");
-        jobs.style.height = '1500px';
+        //Media query for screenWidth 
+        const screenWidth = window.matchMedia("(max-width: 450px)");
+        //Create variables for pixels 
+        let heightInPx_desktop_engineering = '800px';
+        let heightInPx_desktop_it= '1500px';
+        let heightInPx_mobile_engineering = '1200px';
+        let heightInPx_mobile_it='2700px';
+        //Create function to check the scree width and set IT
+        function checkScreenWidthIT(screenWidth) {
+            if(screenWidth.matches){
+                jobs.style.height = heightInPx_mobile_it;
+            }
+            else{
+                jobs.style.height =  heightInPx_desktop_it;
+            }
+        }
+        checkScreenWidthIT(screenWidth);
     }
     else{
         $(".IT").removeClass("active");
@@ -29,7 +66,24 @@ $("h3").click(function() {
         $(".engineering").addClass("active");
         $("#engineering-card-wrapper").addClass("active-card");
         $("#engineering-card-wrapper").removeClass("deactive-card");
-        jobs.style.height = '800px';
+        //Media query for screenWidth 
+        const screenWidth = window.matchMedia("(max-width: 450px)");
+        //Create variables for pixels 
+        let heightInPx_desktop_engineering = '800px';
+        let heightInPx_desktop_it= '1500px';
+        let heightInPx_mobile_engineering = '1200px';
+        let heightInPx_mobile_it='2700px';
+        //Create function to check the scree width and set IT
+        function checkScreenWidthEngineering(screenWidth) {
+            if(screenWidth.matches){
+                jobs.style.height = heightInPx_mobile_engineering;
+                console.log('Hi');
+            }
+            else{
+                jobs.style.height =  heightInPx_desktop_engineering;
+            }
+        }
+        checkScreenWidthEngineering(screenWidth);
     }
 });
 

@@ -97,7 +97,9 @@ section.header .container .header-circle{
 section.footer .row .my-col-1{
     /* background-color: lightblue; */
     padding: 2rem 1rem 2rem;
+    width: 100%;
 }
+
 section.footer .row .my-col-2{
     /* background-color: lightgreen; */
     padding: 2rem 1rem 2rem;

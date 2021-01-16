@@ -19,104 +19,135 @@
     <link rel="stylesheet" href="./css/laptop.css">
     <link rel="stylesheet" href="./css/largeLaptop.css">
     <link rel="stylesheet" href="./css/scroll-index.css">
+    <link rel="stylesheet" href="./css/phone-small.css">
+    <link rel="stylesheet" href="./css/mobileNav.css">
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/android-chrome-192x192.png">
     <title>Sun KPO - About Us</title>
-    </head>
-    <body>
-        <!-- Parent Scroll Start -->
-        <div class="parent">
-            <!-- Back to top button start-->
-            <button id="back-to-top"><img src="./svgs/back-to-top.svg" alt=""></button>
-            <!-- Child Scroll Start -->
-            <div class="child">
-                <!-- Header Section Start -->
-                <section class="header">
-                    <div class="container">
-                        <!--PC Nav Bar Start-->
-                        <nav class="custom-nav-bar">
-                            <picture>
-                                <a href="index.html"><img class="logo" src="./Logo/LOGO.svg" alt=""></a>
-                            </picture>
-                            <div class="pc-navigation">
-                                <ul class="nav" id="main-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="index.html">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="services.html">Services</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="careers.html">Careers</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">About Us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="index.html#contact-us">Contact Us</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                        <!-- PC Nav Bar End -->
-                        <!-- Header Circle Start-->
-                        <div class="header-circle">
-                            <picture>
-                                <source srcset="/svgs/Header-circle-phone.svg" media="(max-width: 576px)">
-                                <source srcset="/svgs/Header-circle-tab.svg" media="(max-width: 1200px)">
-                                <img src="svgs/Header-circle-desktop.svg" alt="">
-                            </picture>
+</head>
+
+<body>
+    <!-- Mobile Hamburger Menu Start -->
+    <div class="mobile-menu">
+        <img id="times" src="./svgs/times.svg" alt="">
+        <img id="mobilenavlogo" src="./svgs/mobileNav-logo.svg" alt="">
+        <ul class="nav-links">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="services.html">Services</a>
+            </li>
+            <li>
+                <a href="careers.html">Careers</a>
+            </li>
+            <li>
+                <a href="aboutus.html">About Us</a>
+            </li>
+            <li>
+                <a href="index.html#contact-us">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+    <!-- Mobile Hamburger Menu End -->
+    <!-- Parent Scroll Start -->
+    <div class="parent">
+        <!-- Back to top button start-->
+        <button id="back-to-top"><img src="./svgs/back-to-top.svg" alt=""></button>
+        <!-- Child Scroll Start -->
+        <div class="child">
+            <!-- Header Section Start -->
+            <section class="header">
+                <img id="hamburger" src="./svgs/hamburger.svg" alt="">
+                <div class="container">
+                    <!--PC Nav Bar Start-->
+                    <nav class="custom-nav-bar">
+                        <picture>
+                            <a href="index.html"><img class="logo" src="./Logo/LOGO.svg" alt=""></a>
+                        </picture>
+                        <div class="pc-navigation">
+                            <ul class="nav" id="main-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="services.html">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="careers.html">Careers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html#contact-us">Contact Us</a>
+                                </li>
+                            </ul>
                         </div>
-                        <!-- Header Circle End-->
+                    </nav>
+                    <!-- PC Nav Bar End -->
+                    <!-- Header Circle Start-->
+                    <div class="header-circle">
+                        <picture>
+                            <source srcset="/svgs/Header-circle-phone.svg" media="(max-width: 576px)">
+                            <source srcset="/svgs/Header-circle-tab.svg" media="(max-width: 1200px)">
+                            <img src="svgs/Header-circle-desktop.svg" alt="">
+                        </picture>
                     </div>
-                </section>
-                <!-- Header Section End -->
-                <!-- About Us Hero section start -->
-                <section class="aboutus-hero">
-                    <div class="container">
-                        <div class="aboutus-hero-txt" id="aboutus-hero-txt">
-                            <h1>ABOUT US</h1>
-                            <div class="horizontal-rule"></div>
-                            <h3>YOU DREAM IT, WE MAKE IT!</h3>
-                            <div class="aboutus-nav">
-                                <h3><a href="#sunkpo-outer-wrapper">About Sun KPO</a></h3>
-                                <h4>|</h4>
-                                <h3><a href="#time">Company Timeline</a></h3>
-                                <h4>|</h4>
-                                <h3><a href="#leaders">Our Leaders</a></h3>
-                            </div>
-                          </div>
-                        <!--AboutUs Hero circle start -->
-                        <div class="aboutus-hero-circle">
-                            <picture>
-                                <img src="./Pages/AboutUs-Page/AboutUs-hero-circle-desktop.svg" alt="">
-                            </picture>
+                    <!-- Header Circle End-->
+                </div>
+            </section>
+            <!-- Header Section End -->
+            <!-- About Us Hero section start -->
+            <section class="aboutus-hero">
+                <div class="container">
+                    <div class="aboutus-hero-txt" id="aboutus-hero-txt">
+                        <h1>ABOUT US</h1>
+                        <div class="horizontal-rule"></div>
+                        <h3>YOU DREAM IT, WE MAKE IT!</h3>
+                        <div class="aboutus-nav">
+                            <h3><a href="#sunkpo-outer-wrapper">About SunKPO</a></h3>
+                            <h4>|</h4>
+                            <h3><a href="#time">Company Timeline</a></h3>
+                            <h4>|</h4>
+                            <h3><a href="#leaders">Our Leaders</a></h3>
                         </div>
-                        <!--AboutUs Hero circle end-->
-                        <!--SunKPO detials start -->
-                        <div class="sunkpo-outer-wrapper" id="sunkpo-outer-wrapper">
-                            <div class="sunkpo-wrapper">
-                                <div class="sunkpo-logo">
-                                    <picture>
-                                        <img src="./Pages/AboutUs-Page/About-Us-sunkpo.svg" alt="">
-                                    </picture>
+                    </div>
+                    <!--AboutUs Hero circle start -->
+                    <div class="aboutus-hero-circle">
+                        <picture>
+                            <img src="./Pages/AboutUs-Page/AboutUs-hero-circle-desktop.svg" alt="">
+                        </picture>
+                    </div>
+                    <!--AboutUs Hero circle end-->
+                    <!--SunKPO detials start -->
+                    <div class="sunkpo-outer-wrapper" id="sunkpo-outer-wrapper">
+                        <div class="sunkpo-wrapper">
+                            <div class="sunkpo-logo">
+                                <picture>
+                                    <img src="./Pages/AboutUs-Page/About-Us-sunkpo.svg" alt="">
+                                </picture>
+                            </div>
+                            <div class="sunkpo-details">
+                                <div class="para1">
+                                    <p>Sun KPO was founded in 2014 by entrepreneurs with over 25+ years of industry
+                                        experience.
+                                        We have successfully delivered many projects for our customers and are rapidly
+                                        growing into a leading products and services company.
+                                    </p>
                                 </div>
-                                <div class="sunkpo-details">
-                                    <div class="para1">
-                                        <p>Sun KPO was founded in 2014 by entrepreneurs with over 25+ years of industry experience. 
-                                          We have successfully delivered many projects for our customers and are rapidly growing into a leading products and services company.
-                                        </p>
-                                    </div>
-                                    <div class="para1">
-                                        <p>We identify market needs, opportunities and keep building products that can provide a niche solution. 
-                                        </p>
-                                    </div>
-                                    <div class="para1">
-                                        <p>We serve our customers with utmost commitment, quality and provide value for money services, along with a wide
-                                            range of domains and technologies.</p>
-                                    </div>
-                                    <div class="para1">
-                                      <p>Write to us today for a no obligation consultation!
+                                <div class="para1">
+                                    <p>We identify market needs, opportunities and keep building products that can
+                                        provide a niche solution.
+                                    </p>
+                                </div>
+                                <div class="para1">
+                                    <p>We serve our customers with utmost commitment, quality and provide value for
+                                        money services, along with a wide
+                                        range of domains and technologies.</p>
+                                </div>
+                                <div class="para1">
+                                    <p>Write to us today for a no obligation consultation!
                                         <br>Thank you for your business!
                                       </p>
                                     </div>
@@ -358,12 +389,12 @@
                 <section class="footer">
                     <div class="container">
                         <div class="row">
-                            <div class="col my-col-1 col-xs-6 col-sm-6 col-lg-3">
+                        <div class="col-12 my-col-1 col-xs-6 col-sm-6 col-lg-3">
                                 <picture>
                                   <img src="./Footer/Footer-logo-desktop.svg" alt="">
                                 </picture>
                             </div>
-                            <div class="col my-col-2 col-xs-6 col-sm-6 col-lg-3">
+                        <div class="col-12 my-col-2 col-xs-6 col-sm-6 col-lg-3">
                                 <h1>VISIT</h1>
                                 <p>Danville, CA<br>USA, 94526
                                 </p>
@@ -426,5 +457,6 @@
         <script src="setJobActive.js"></script>
         <script src="animationAboutUs.js"></script>
         <script src="backtotopbutton.js"></script>
+        <script src="mobileNav.js"></script>
     </body>
 </html>

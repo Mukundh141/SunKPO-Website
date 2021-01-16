@@ -1,29 +1,57 @@
 <!doctype html>
 <html lang="en" id="top">
-    <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">  
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <!--Animate CSS CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <!-- Custome CSS -->
-    <link rel="stylesheet" href="./css/utilities.css">
-    <link rel="stylesheet" href="./css/careers.css">
-    <link rel="stylesheet" href="./css/laptop.css">
-    <link rel="stylesheet" href="./css/largeLaptop.css">
-    <link rel="stylesheet" href="./css/scroll.css">
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/android-chrome-192x192.png">
-    <title>Sun KPO - Careers</title>
-    </head>
-    <body>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!--Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <!-- Custome CSS -->
+  <link rel="stylesheet" href="./css/utilities.css">
+  <link rel="stylesheet" href="./css/careers.css">
+  <link rel="stylesheet" href="./css/laptop.css">
+  <link rel="stylesheet" href="./css/largeLaptop.css">
+  <link rel="stylesheet" href="./css/scroll.css">
+  <link rel="stylesheet" href="./css/phone-small.css">
+  <link rel="stylesheet" href="./css/mobileNav.css">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/android-chrome-192x192.png">
+  <title>Sun KPO - Careers</title>
+</head>
+
+<body>
+  <!-- Mobile Hamburger Menu Start -->
+  <div class="mobile-menu">
+    <img id="times" src="./svgs/times.svg" alt="">
+    <img id="mobilenavlogo" src="./svgs/mobileNav-logo.svg" alt="">
+    <ul class="nav-links">
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="services.html">Services</a>
+      </li>
+      <li>
+        <a href="careers.html">Careers</a>
+      </li>
+      <li>
+        <a href="aboutus.html">About Us</a>
+      </li>
+      <li>
+        <a href="index.html#contact-us">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+  <!-- Mobile Hamburger Menu End -->
         <!-- Parent Scroll Start -->
         <div class="parent">
             <!-- Back to top button start-->
@@ -32,6 +60,7 @@
             <div class="child">
                 <!-- Header Section Start -->
                 <section class="header">
+        <img id="hamburger" src="./svgs/hamburger.svg" alt="">
                     <div class="container">
                         <!--PC Nav Bar Start-->
                         <nav class="custom-nav-bar">
@@ -415,12 +444,12 @@
                 <section class="footer">
                     <div class="container">
                         <div class="row">
-                            <div class="col my-col-1 col-xs-6 col-sm-6 col-lg-3">
+            <div class="col-12 my-col-1 col-xs-6 col-sm-6 col-lg-3">
                                 <picture>
                                   <img src="./Footer/Footer-logo-desktop.svg" alt="">
                                 </picture>
                             </div>
-                            <div class="col my-col-2 col-xs-6 col-sm-6 col-lg-3">
+            <div class="col-12 my-col-2 col-xs-6 col-sm-6 col-lg-3">
                                 <h1>VISIT</h1>
                                 <p>Danville, CA<br>USA, 94526
                                 </p>
@@ -483,5 +512,6 @@
         <script src="setJobActive.js"></script>
         <script src="animationCareers.js"></script>     
         <script src="backtotopbutton.js"></script>
+        <script src="mobileNav.js"></script>
     </body>
 </html>

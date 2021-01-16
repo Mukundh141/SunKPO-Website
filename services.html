@@ -21,12 +21,37 @@
     <link rel="stylesheet" href="./css/laptop.css">
     <link rel="stylesheet" href="./css/largeLaptop.css">
     <link rel="stylesheet" href="./css/scroll.css">
+    <link rel="stylesheet" href="./css/phone-small.css">
+    <link rel="stylesheet" href="./css/mobileNav.css">
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/android-chrome-192x192.png">
     <title>Sun KPO - Services</title>
 </head>
 
 <body>
+    <!-- Mobile Hamburger Menu Start -->
+    <div class="mobile-menu">
+        <img id="times" src="./svgs/times.svg" alt="">
+        <img id="mobilenavlogo" src="./svgs/mobileNav-logo.svg" alt="">
+        <ul class="nav-links">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="services.html">Services</a>
+            </li>
+            <li>
+                <a href="careers.html">Careers</a>
+            </li>
+            <li>
+                <a href="aboutus.html">About Us</a>
+            </li>
+            <li>
+                <a href="index.html#contact-us">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+    <!-- Mobile Hamburger Menu End -->
     <!-- Parent Scroll Start -->
     <div class="parent">
         <!-- Back to top button start-->
@@ -35,6 +60,7 @@
         <div class="child">
             <!-- Header Section Start -->
             <section class="header">
+                <img id="hamburger" src="./svgs/hamburger.svg" alt="">
                 <div class="container">
                     <!--PC Nav Bar Start-->
                     <nav class="custom-nav-bar">
@@ -713,12 +739,12 @@
             <section class="footer">
                 <div class="container">
                     <div class="row">
-                        <div class="col my-col-1 col-xs-6 col-sm-6 col-lg-3">
+                        <div class="col-12 my-col-1 col-xs-6 col-sm-6 col-lg-3">
                             <picture>
                                 <img src="./Footer/Footer-logo-desktop.svg" alt="">
                             </picture>
                         </div>
-                        <div class="col my-col-2 col-xs-6 col-sm-6 col-lg-3">
+                        <div class="col-12 my-col-2 col-xs-6 col-sm-6 col-lg-3">
                             <h1>VISIT</h1>
                             <p>Danville, CA<br>USA, 94526
                             </p>
@@ -782,6 +808,7 @@
     <script src="counterAnimation.js"></script>
     <script src="animationServices.js"></script>
     <script src="backtotopbutton.js"></script>
+    <script src="mobileNav.js"></script>
 </body>
 
 </html>

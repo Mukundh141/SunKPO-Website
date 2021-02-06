@@ -1,0 +1,8 @@
+@media screen and (min-width: 1601px) {
+  /* Utilities.css - footer */
+  section.footer .row .my-col-1 picture {
+    width: 100%;
+    transform: scale(0.8);
+    margin-left: -2rem;
+  }
+}

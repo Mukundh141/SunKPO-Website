@@ -11,18 +11,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <!--Animate CSS CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!-- Custome CSS -->
     <link rel="stylesheet" href="./css/utilities.css">
     <link rel="stylesheet" href="./css/services.css">
+    <link rel="stylesheet" href="./css/desktop.css">
     <link rel="stylesheet" href="./css/laptop.css">
     <link rel="stylesheet" href="./css/largeLaptop.css">
-    <link rel="stylesheet" href="./css/scroll.css">
+    <link rel="stylesheet" href="./css/scroll-index.css">
     <link rel="stylesheet" href="./css/mobileNav.css">
     <link rel="stylesheet" href="./css/phone-small.css">
+    <link rel="stylesheet" href="./css/tablet-small.css">
+    <link rel="stylesheet" href="./css/tablet-large.css">
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/android-chrome-192x192.png">
     <title>Sun KPO - Services</title>
@@ -47,7 +49,7 @@
                 <a href="aboutus.html">About Us</a>
             </li>
             <li>
-                <a href="index.html#contact-us">Contact Us</a>
+                <a href="index.html#contact-us" class="contactUs-mobile">Contact Us</a>
             </li>
         </ul>
     </div>
@@ -102,9 +104,9 @@
                     <div class="services-txt-2">
                         <h1>SERVICES</h1>
                         <div class="horizontal-rule"></div>
-                        <p>Sun KPO is a full service company offering a wide range of services under the same roof –
-                            this will help your IT, Product Engineering and Support teams to work closely with just one
-                            vendor and get all the needed services at a single place.</p>
+                        <p>Sun KPO is a full service company offering a wide range of services under the same roof – this will help your IT, Product Engineering and Support teams to work closely with just one vendor and get all the needed services at a single
+                            place.
+                        </p>
                         <div class="services-nav">
                             <h3><a href="#carousel-wrapper">Offered Services</a></h3>
                             <h4>|</h4>
@@ -130,12 +132,10 @@
             <section class="services" id="services">
                 <div id="carousel-wrapper">
                     <!--Services carousel start -->
-                    <div id="services-carousel" class="carousel slide carousel-fade" data-ride="carousel"
-                        data-interval="false">
+                    <div id="services-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
                         <div class="carousel-inner">
                             <!--Mechanical start-->
-                            <div class="carousel-item" id="mechanical-engineering"
-                                onfocus="console.log('Id is foucsed')">
+                            <div class="carousel-item" id="mechanical-engineering" onfocus="console.log('Id is foucsed')">
                                 <div class="card-outer-wrapper">
                                     <h1>Mechanical <span>Engineering</span></h1>
                                     <div class="card-inner-wrapper">
@@ -149,11 +149,8 @@
                                                     <h3>BOM Generation And Quotes</h3>
                                                     <p>Sun KPO Engineeering teams can generate full BOM's and Quotes
                                                         <span>within a day
-                                                        </span> to expedite the quoting process for our customers. This
-                                                        has allowed several of our customers to respond to their
-                                                        clients needs quickly and accurately. We have observed that the
-                                                        faster our customers are able to respond to their
-                                                        clients, more likely they are to win the business, making it a
+                                                        </span> to expedite the quoting process for our customers. This has allowed several of our customers to respond to their clients needs quickly
+                                                        and accurately. We have observed that the faster our customers are able to respond to their clients, more likely they are to win the business, making it a
                                                         <span>win-win</span> situation.
                                                     </p>
                                                 </div>
@@ -165,10 +162,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <h3>Conceptual and Detailed <br>Designs</h3>
-                                                    <p>We work with our customers to generate concepts based on their
-                                                        requirements. Once the concepts are approved, we then provide
-                                                        full
-                                                        documentation for production.
+                                                    <p>We work with our customers to generate concepts based on their requirements. Once the concepts are approved, we then provide full documentation for production.
                                                     </p>
                                                 </div>
                                             </div>
@@ -176,8 +170,7 @@
                                         <!-- Middle section-->
                                         <div class="middle-section">
                                             <picture>
-                                                <img src="./Pages/Services-page/illustrations/mechanical-engineering.svg"
-                                                    alt="">
+                                                <img src="./Pages/Services-page/illustrations/mechanical-engineering.svg" alt="">
                                             </picture>
                                         </div>
                                         <!-- Right section -->
@@ -189,8 +182,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <h3>Legacy Conversion</h3>
-                                                    <p>We convert old legacy paper or AutoCAD drawings into 3D models
-                                                        along with full BOM and documentation.</p>
+                                                    <p>We convert old legacy paper or AutoCAD drawings into 3D models along with full BOM and documentation.</p>
                                                 </div>
                                             </div>
                                             <!--content4-->
@@ -227,8 +219,7 @@
                             </div>
                             <!--Mechanical end-->
                             <!--Electrical start-->
-                            <div class="carousel-item" id="electrical-engineering"
-                                onfocus="console.log('Id is foucsed')">
+                            <div class="carousel-item" id="electrical-engineering" onfocus="console.log('Id is foucsed')">
                                 <div class="card-outer-wrapper">
                                     <h1>Electrical <span>Engineering</span></h1>
                                     <div class="card-inner-wrapper">
@@ -240,8 +231,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <h3>Drawing and Drafting</h3>
-                                                    <p>Instrument Specifications, GA Drawings and Drawing
-                                                        Conversions
+                                                    <p>Instrument Specifications, GA Drawings and Drawing Conversions
                                                     </p>
                                                 </div>
                                             </div>
@@ -252,8 +242,8 @@
                                                 </div>
                                                 <div class="text">
                                                     <h3>Design</h3>
-                                                    <p>Design Calculations and Drafting, BOM, and Creating Macros &
-                                                        Libraries</p>
+                                                    <p>Design Calculations and Drafting, BOM, and Creating Macros & Libraries
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -283,8 +273,8 @@
                                                 </div>
                                                 <div class="text">
                                                     <h3>Layouts</h3>
-                                                    <p>Earthing Layouts, Lighting Layouts, Cable Trays and Sensor
-                                                        Layouts</p>
+                                                    <p>Earthing Layouts, Lighting Layouts, Cable Trays and Sensor Layouts
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -306,8 +296,8 @@
                                                 </div>
                                                 <div class="text">
                                                     <h3>PLC & SCADA</h3>
-                                                    <p>PLC Panels, MCC and PCC Panels, Industrial Panels and Drive
-                                                        Panels</p>
+                                                    <p>PLC Panels, MCC and PCC Panels, Industrial Panels and Drive Panels
+                                                    </p>
                                                 </div>
                                             </div>
                                             <!--content 2-->
@@ -317,8 +307,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <h3>System Design</h3>
-                                                    <p>CE / UL / GOST, Logic Diagrams, Control System Design and Safety
-                                                        Interlocks </p>
+                                                    <p>CE / UL / GOST, Logic Diagrams, Control System Design and Safety Interlocks </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -337,8 +326,8 @@
                                                 </div>
                                                 <div class="text">
                                                     <h3>Application programming</h3>
-                                                    <p>S88 Programming, Ladder Programming, Embedded C / C++ and
-                                                        Validation</p>
+                                                    <p>S88 Programming, Ladder Programming, Embedded C / C++ and Validation
+                                                    </p>
                                                 </div>
                                             </div>
                                             <!--content5-->
@@ -348,11 +337,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <h3>Platforms</h3>
-                                                    <p>Siemens, ABB, Rockwell (AB),
-                                                        Schneider, Mitsubishi, GE
-                                                        WinCC, Wonderware,
-                                                        RS View / Factory Talk, Citect, Ifix
-                                                        Ethernet I/P, Modbus TCPI/IP, Profinet, Profibus and Control Net
+                                                    <p>Siemens, ABB, Rockwell (AB), Schneider, Mitsubishi, GE WinCC, Wonderware, RS View / Factory Talk, Citect, Ifix Ethernet I/P, Modbus TCPI/IP, Profinet, Profibus and Control Net
                                                     </p>
                                                 </div>
                                             </div>
@@ -375,9 +360,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <h3>Application Design and Development</h3>
-                                                    <p>Design and development of custom applications in various
-                                                        technologies
-                                                        such as .NET, Java, Angular
+                                                    <p>Design and development of custom applications in various technologies such as .NET, Java, Angular
                                                     </p>
                                                 </div>
                                             </div>
@@ -388,9 +371,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <h3>Support and Maintenace</h3>
-                                                    <p>Support and Maintenace of existing projects and products,
-                                                        production support, upgrades, bug fixed and minor
-                                                        /major enhancements.</p>
+                                                    <p>Support and Maintenace of existing projects and products, production support, upgrades, bug fixed and minor /major enhancements.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -409,8 +390,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <h3>Cloud Implementation</h3>
-                                                    <p>Cloud based applications on AWS, Azure and Google Cloud, Cloud
-                                                        creation and migration, application and cloud support</p>
+                                                    <p>Cloud based applications on AWS, Azure and Google Cloud, Cloud creation and migration, application and cloud support</p>
                                                 </div>
                                             </div>
                                             <!--content5-->
@@ -420,8 +400,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <h3>Porting and Technology <br>Conversion</h3>
-                                                    <p>Legacy to new generation technology migration ( Example, Java to
-                                                        Cloud, ASP.NET to .NET core etc. )</p>
+                                                    <p>Legacy to new generation technology migration ( Example, Java to Cloud, ASP.NET to .NET core etc. )</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -443,9 +422,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <h3>Web Applications</h3>
-                                                    <p>Custom web application development and support in new generation
-                                                        technologies like Angular, React, Vue, Python / Django
-                                                        , PHP etc.
+                                                    <p>Custom web application development and support in new generation technologies like Angular, React, Vue, Python / Django , PHP etc.
                                                     </p>
                                                 </div>
                                             </div>
@@ -456,9 +433,8 @@
                                                 </div>
                                                 <div class="text">
                                                     <h3>Mobile Applications</h3>
-                                                    <p>Mobile App development in Native Android, Native IOS, Hybrid
-                                                        frameworks (Ionic / React Native) and their management /
-                                                        support.</p>
+                                                    <p>Mobile App development in Native Android, Native IOS, Hybrid frameworks (Ionic / React Native) and their management / support.
+                                                    </p>
                                                 </div>
                                             </div>
                                             <!--content3-->
@@ -468,16 +444,14 @@
                                                 </div>
                                                 <div class="text">
                                                     <h3>E-Commerce</h3>
-                                                    <p>E-Commerce web and mobile application development, integration to
-                                                        existing E-Commerce sites, development of payment gateways.</p>
+                                                    <p>E-Commerce web and mobile application development, integration to existing E-Commerce sites, development of payment gateways.</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <!-- Middle section-->
                                         <div class="middle-section">
                                             <picture>
-                                                <img src="./Pages/Services-page/illustrations/digital-services.svg"
-                                                    alt="">
+                                                <img src="./Pages/Services-page/illustrations/digital-services.svg" alt="">
                                             </picture>
                                         </div>
                                         <!-- Right section -->
@@ -489,8 +463,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <h3>Digital Cloud</h3>
-                                                    <p>Digital cloud creation, migeration and deployment for legacy web
-                                                        and mobile applications.</p>
+                                                    <p>Digital cloud creation, migeration and deployment for legacy web and mobile applications.</p>
                                                 </div>
                                             </div>
                                             <!--content5-->
@@ -500,8 +473,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <h3>App Integration</h3>
-                                                    <p>Integration services to third party devices like Bluetooth, RFID,
-                                                        QR / Barcode scanners for inventor or warehousing applications.
+                                                    <p>Integration services to third party devices like Bluetooth, RFID, QR / Barcode scanners for inventor or warehousing applications.
                                                     </p>
                                                 </div>
                                             </div>
@@ -524,8 +496,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <h3>IOT</h3>
-                                                    <p>Services for design and manufacture of IOT devices for Medical,
-                                                        Automotive, Heavy Vehicles, Process Automation etc.</p>
+                                                    <p>Services for design and manufacture of IOT devices for Medical, Automotive, Heavy Vehicles, Process Automation etc.</p>
                                                 </div>
                                             </div>
                                             <!--content 2-->
@@ -535,8 +506,8 @@
                                                 </div>
                                                 <div class="text">
                                                     <h3>Industry 4.0</h3>
-                                                    <p>Smart Manufacturing, Simulation, Smart Factories and Automation
-                                                        (PLCs)</p>
+                                                    <p>Smart Manufacturing, Simulation, Smart Factories and Automation (PLCs)
+                                                    </p>
                                                 </div>
                                             </div>
                                             <!--content3-->
@@ -546,8 +517,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <h3>Telematics</h3>
-                                                    <p>Bluetooth / Zigbee, RF Mesh, GPRS based remote monitoring
-                                                        solutions - software protocols and integration (MQTT / Cloud).
+                                                    <p>Bluetooth / Zigbee, RF Mesh, GPRS based remote monitoring solutions - software protocols and integration (MQTT / Cloud).
                                                     </p>
                                                 </div>
                                             </div>
@@ -577,8 +547,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <h3>Design Support</h3>
-                                                    <p>Board design, schematic capture, PCB layout and manufacturing
-                                                        support, along with Component.</p>
+                                                    <p>Board design, schematic capture, PCB layout and manufacturing support, along with Component.</p>
                                                 </div>
                                             </div>
                                             <!--content6-->
@@ -588,8 +557,7 @@
                                                 </div>
                                                 <div class="text">
                                                     <h3>Firmware</h3>
-                                                    <p>Embedded firmware and application development, board support and
-                                                        package development.</p>
+                                                    <p>Embedded firmware and application development, board support and package development.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -636,11 +604,8 @@
                                 <div class="horizontal-rule"></div>
                                 <div class="text">
                                     <h2 class="subReasonHeading">Value</h2>
-                                    <p>We believe in <span>creating value</span> to our customers through our services.
-                                        We create
-                                        long term partnerships with our
-                                        customers and in turn they have helped Sun KPO by providing several
-                                        referrals in order to grow our clientele .
+                                    <p>We believe in <span>creating value</span> to our customers through our services. We create long term partnerships with our customers and in turn they have helped Sun KPO by providing several referrals in order to grow
+                                        our clientele .
                                     </p>
                                 </div>
                             </div>
@@ -649,10 +614,7 @@
                                 <div class="horizontal-rule"></div>
                                 <div class="text">
                                     <h2 class="subReasonHeading">High Quality</h2>
-                                    <p>Prior to delivery of every project, our engineers run through a series of
-                                        checklists to ensure
-                                        the deliverable meets our own strict internal standards and our customers
-                                        requirements.
+                                    <p>Prior to delivery of every project, our engineers run through a series of checklists to ensure the deliverable meets our own strict internal standards and our customers requirements.
                                     </p>
                                 </div>
                             </div>
@@ -661,10 +623,7 @@
                                 <div class="horizontal-rule"></div>
                                 <div class="text">
                                     <h2 class="subReasonHeading">Low Cost and Flexibility</h2>
-                                    <p>Our costs are extremely competitive as we provide most of the services from
-                                        offshore in India. We are very
-                                        easy to work with and provide flexibility to our customers to chose between a
-                                        fixed bid rate or an hourly rate.
+                                    <p>Our costs are extremely competitive as we provide most of the services from offshore in India. We are very easy to work with and provide flexibility to our customers to chose between a fixed bid rate or an hourly rate.
                                     </p>
                                 </div>
                             </div>
@@ -673,8 +632,7 @@
                                 <div class="horizontal-rule"></div>
                                 <div class="text">
                                     <h2 class="subReasonHeading">Attractive Pricing</h2>
-                                    <p>Without compromising the quality we offer the most competitive pricing by
-                                        leveraging global delivery.
+                                    <p>Without compromising the quality we offer the most competitive pricing by leveraging global delivery.
                                     </p>
                                 </div>
                             </div>
@@ -683,10 +641,7 @@
                                 <div class="horizontal-rule"></div>
                                 <div class="text">
                                     <h2 class="subReasonHeading">Responsive</h2>
-                                    <p>We are responsive, day or night we will quickly address your need and problems,
-                                        our offshore-onshore
-                                        model allows us to provide support for your needs at short notices, round the
-                                        clock.
+                                    <p>We are responsive, day or night we will quickly address your need and problems, our offshore-onshore model allows us to provide support for your needs at short notices, round the clock.
                                     </p>
                                 </div>
                             </div>
@@ -695,9 +650,7 @@
                                 <div class="horizontal-rule"></div>
                                 <div class="text">
                                     <h2 class="subReasonHeading">Built for Scale</h2>
-                                    <p>Our well trained and talented resource pool is quickly scalable, from small to
-                                        large scale projects. We offer multiple
-                                        modes of engagement, suiting all your needs.
+                                    <p>Our well trained and talented resource pool is quickly scalable, from small to large scale projects. We offer multiple modes of engagement, suiting all your needs.
                                     </p>
                                 </div>
                             </div>
@@ -750,20 +703,18 @@
                                 <img src="./Footer/Footer-logo-desktop.svg" alt="">
                             </picture>
                         </div>
-                        <div class="col-12 my-col-2 col-xs-6 col-sm-6 col-lg-3">
+                        <div class="col-12 my-col-2 col-xs-6 col-sm-6 col-md-3 col-lg-3">
                             <h1>VISIT</h1>
                             <p>Danville, CA<br>USA, 94526
                             </p>
-                            <p>Radhaswamy Colony, Market Yard Main Road<br>
-                                Secunderabad, Telangana<br>India, 500009
+                            <p>Radhaswamy Colony, Market Yard Main Road<br> Secunderabad, Telangana<br>India, 500009
                             </p>
                         </div>
-                        <div class="col my-col-3 col-xs-4 col-sm-4 col-lg-2">
+                        <div class="col my-col-3 col-xs-4 col-sm-4 col-md-3 col-lg-2">
                             <h1>FOLLOW</h1>
                             <ul>
                                 <li>
-                                    <a
-                                        href="https://www.linkedin.com/company/sun-kpo-inc/?viewAsMember=true">LinkedIn</a>
+                                    <a href="https://www.linkedin.com/company/sun-kpo-inc/?viewAsMember=true">LinkedIn</a>
                                 </li>
                                 <li>
                                     <a href="#">Twitter</a>
@@ -773,7 +724,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col my-col-4 col-xs-4 col-sm-4 col-lg-2">
+                        <div class="col my-col-4 col-xs-4 col-sm-4 col-md-3 col-lg-2">
                             <h1>EXPLORE</h1>
                             <ul>
                                 <li>
@@ -793,7 +744,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col my-col-5 col-xs-4 col-sm-4 col-lg-2">
+                        <div class="col my-col-5 col-xs-4 col-sm-4 col-md-3 col-lg-2">
                             <h1>CONTACT</h1>
                             <h3>info@sunkpo.com</h3>
                             <h3>sales@sunkpo.com</h3>
